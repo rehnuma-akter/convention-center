@@ -1,1 +1,88 @@
-@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*header section*/
+
+.nav-logo{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 20px;
+    padding: 12px;
+}
+.nav-logo:hover{
+    color: black;
+}
+header .slider img{
+    width: 800px;
+}
+header .header-btn{
+    border: none;
+    padding: 12px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(212, 255, 255);
+    font-weight: 500;
+}
+
+/*section aboust us*/
+.about-us{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about-us img{
+    margin-left: 20px;
+    width: 600px;
+}
+.about-us .text{
+    margin-right: 30px;
+    margin-top: 90px;
+}
+
+/*section packages*/
+
+.packages-section{
+    margin-top: 50px;
+}
+.packages-section h2{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    font-size: 40px;
+}
+.packages-section .packages{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    margin-left: 60px;
+    grid-column-gap: 20px;
+}
+
+/*events sections*/
+.events-section{
+    margin-top: 50px;
+}
+.events-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.events{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+}
+.card-design{
+    padding: 20px;
+    border:1px dashed rgb(190, 190, 190);
+    width: 350px;
+    height: 190px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(228, 255, 249);
+}
